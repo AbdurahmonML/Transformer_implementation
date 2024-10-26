@@ -51,7 +51,7 @@ def create_dataset():
 
 def preprocess_and_dataloader(train_dataset, test_dataset, tokenizer = "Helsinki-NLP/opus-mt-en-fr", max_length = 64, batch_size = 64):
   
-  tokenizer = AutoTokenizer.from_pretrained()
+  tokenizer = AutoTokenizer.from_pretrained(tokenizer)
   
   # Add Begining of Sentence (BOS) token since it is absent in the tokenizer
   tokenizer.add_special_tokens({'bos_token': '<BOS>'})

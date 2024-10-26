@@ -10,7 +10,7 @@ In this project, I built a Transformer model from scratch, including the impleme
 ## Training the Model
 To train the model, follow these steps:
 
-1. **Run the Notebook**: Open and execute `train.ipynb`. The notebook contains all the necessary code to train the model.
+1. **Run the Notebook**: Open and execute `train_transformer.ipynb`. The notebook contains all the necessary code to train the model.
 2. **No External Imports**: I ensured that all required files are included within the project to minimize the risk of errors during execution.
 
 ### Notes
